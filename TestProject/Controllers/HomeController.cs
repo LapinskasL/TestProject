@@ -24,6 +24,7 @@ namespace TestProject.Controllers
 
         public IActionResult Contact()
         {
+            //test
             ViewData["Message"] = "Your contact page.";
 
             return View();
